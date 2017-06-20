@@ -26,7 +26,7 @@ def lambda_handler(event, context):
         DUE_DATE_SINCE= 'dueDateSince={0}'.format(getDate[0]) #開始日
         DUE_DATE_UNTIL= 'dueDateUntil={0}'.format(getDate[1])  # 期限日
 
-        ## 画面出力
+        ## slack出力用変数
         slack_post = "集計期間:" + str(getDate[0]) + "〜" + str(getDate[1]) + '\n'   
 
         # 担当者分、下記処理を回す。
