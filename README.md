@@ -1,6 +1,6 @@
 # BacklogCountTool
 ## 概要
-backlogの、当月1ヶ月分のチケット総数、予定時間、実績時間を集計し、Slackへ通知するLambda Functionです。
+backlogの、当月1ヶ月分のメンバー毎のチケット総数、予定時間、実績時間を集計し、Slackへ通知するLambda Functionです。
 
 ## リポジトリのclone
 ```
