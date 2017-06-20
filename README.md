@@ -49,3 +49,7 @@ zip -r upload.zip *
 ```
 BacklogCountTool.lambda_handler
 ```
+
+## イメージ（Slack通知）
+![サンプル](https://s3-ap-northeast-1.amazonaws.com/backlog-count-tool/image.png "サンプル")
+
